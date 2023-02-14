@@ -7,7 +7,9 @@ class Pessoa:
         self.altura = altura
 
     def envelhecer(self):
-        
+        self.idade += 1
+        if self.idade < 21:
+            self.crescer(0.5)
 
     def engordar(self):
         pass
@@ -15,7 +17,5 @@ class Pessoa:
     def emagrecer(self):
         pass
 
-    def crescer(self):
-        while idade <= 21:
-            i for i in idade 
-            altura += 0.5
+    def crescer(self, tamanho: float):
+        self.altura += tamanho
