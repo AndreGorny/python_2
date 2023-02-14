@@ -1,0 +1,16 @@
+Métodos: 
+    setter --> alterar o valor de um atributo
+    getter --> retornar o valor de um atributo
+
+Aula 2: Abstração, encapsulamento e herança
+
+    4 pilares da Orientação ao Objeto:
+        1. Abstração            |
+        2. Encapsulamento       |-> Python possue os 3.
+        3. Herança              |
+        4. Polimorfismo (não é possível no Python, pelo fato do Python ter tipagem automática)
+
+Encapsulamento: é o agrupamento de dados e processos em uma única estrutura, de forma a entregar todas essa informação em uma única unidade.
+    É ainda o processo de esconder dados os processos dentro do objeto, protegendo essas informações e entregando formas de acessá-los de forma pública.
+        Ou seja, eu não preciso saber montar o motor do carro para dirigir, assim como o usuário não precisa saber todo o processo do código para usá-lo.
+
