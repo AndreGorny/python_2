@@ -1,0 +1,17 @@
+
+O método é um parâmetro do OBJETO, não da CLASSE!
+
+método construtor: responsável pela criação e inicialização do objeto, indicado pelo méto mágico __init__
+    É executado apenas uma vez, na instanciação do objeto.
+
+Parâmetro self --> parâmetro de auto-apontamento. Faz referência à instância atual da classe, para que atributos e métodos sejam acessados.
+    o "self" é o próprio objeto!
+
+Type Hint: 
+    def __init__(self, cor: str, material: str, circ: float) -> None:
+        self.cor = cor
+        self.material = material
+        self.circ = circ
+
+    def.get_cor(self) -> str:
+        return self.cor
