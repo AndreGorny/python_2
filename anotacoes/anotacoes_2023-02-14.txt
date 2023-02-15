@@ -6,7 +6,7 @@ Aula 2: Abstração, encapsulamento e herança
 
     4 pilares da Orientação ao Objeto:
         1. Abstração            |
-        2. Encapsulamento       |-> Python possue os 3.
+        2. Encapsulamento       |-> Python possui os 3.
         3. Herança              |
         4. Polimorfismo (não é possível no Python, pelo fato do Python ter tipagem automática)
 
