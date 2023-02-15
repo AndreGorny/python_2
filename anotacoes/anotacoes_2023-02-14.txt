@@ -14,3 +14,17 @@ Encapsulamento: é o agrupamento de dados e processos em uma única estrutura, d
     É ainda o processo de esconder dados os processos dentro do objeto, protegendo essas informações e entregando formas de acessá-los de forma pública.
         Ou seja, eu não preciso saber montar o motor do carro para dirigir, assim como o usuário não precisa saber todo o processo do código para usá-lo.
 
+
+Herança: pode ser de objeto (menos usual) ou de classe (mais utilizada).
+    Na herança, cria-se uma classe baseada em outra
+        Pode ser simples ou múltipla
+
+    Ex.: classe Pessoa tem uma subclasse Pai.
+        A classe Pai tem tudo que a classe Pessoa tem, e mais algumas coisas.
+        
+        Ex.: Superclasse (ou classe pai) Veículo
+            Subclasses: Carro
+                        Moto
+                        Caminhão
+
+        * Classes filhas não herdam apenas atributos. Herdam também todos os métodos.
