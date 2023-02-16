@@ -1,6 +1,7 @@
 from datetime import date
 from decimal import Decimal
 
+
 class Pessoa:
 
     def __init__(self, nome: str, cpf: int,
@@ -12,7 +13,7 @@ class Pessoa:
         self.sexo = sexo
         self.fone = fone
         self.endereco = endereco
-    
+
 
 class Cliente(Pessoa):
 
@@ -31,6 +32,7 @@ class Funcionario(Pessoa):
         super().__init__(nome, cpf, nascimento, sexo)
         self.salario = salario
         self.cargo = cargo
+
 
 class Produto:
 
