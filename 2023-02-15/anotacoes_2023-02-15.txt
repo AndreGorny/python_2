@@ -1,0 +1,3 @@
+Métodos mágicos: também conhecido como Dunder methods (iniciam e finalizam com 2 underscore __metodo__)
+
+__str__ -> usado para adicionar uma descrição ao objeto
