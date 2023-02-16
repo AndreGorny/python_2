@@ -1,0 +1,31 @@
+Extensão Flake8 --> Linter
+
+início da aula às 20:08
+
+cadastro na AWS
+instalar Postman
+
+-----------------------------------------------
+
+Programação Orientada a Objetos
+
+- Orientação a objetos é um dos paraigmas de programação. 
+Ele foi criado com objetivo de resolver problemas complexos 
+que começaram a aparecer com a evolução da programação
+
+Atriburos básicos da Orientação a objeto são: CLASSE, o MÉTODO, o ATRIBUTO e o OBJETO.
+    Os principais são a CLASSE e o OBJETO 
+
+    Classe -> Carro (a ideia abstrata de carro, e não um específico) -> Descrição genérica que nos permite definir um tipo de estrutura ou dado.
+    Atributo -> É uma lista de valores que podem ser assumidos por um objeto de forma a definirem seu estado (como ele se encontra agora).
+    Método -> Instruções que definem o comportamento de um objeto e podem mudar o seu estado.
+    Objeto -> Carro (um carro específico) -> é a representação de uma única entidade. Pode ser concreto ou abstrato.
+
+    Quando eu crio um objeto, ele é uma instancia da classe a qual pertence.
+    Quando o estado de@category:debuggers Python uma instância muda, o estado das outras instâncias não são afetadas
+
+O nome da classe sempre deve ser em Upper CamelCase (ou seja, todas as palavras com a inicial maiúscula)
+
+Os métodos de uma classe são funções.
+    def <nome do metodo>(self): -> o primeiro parâmetro de uma função é o self
+        pass
