@@ -9,7 +9,7 @@ Cada entidade deve ter seu próprio arquivo.
 2) O arquivo deve ter um formato próprio (exemplo.and)
 - Existem bibliotecas que fazem, dentre outras coisas, serialização de classes:
     Pickle
-
+@category:debuggers Python
 3) O arquivo deve ser armazenado SEMPRE compactado. Abre o arquivo,
 descompacta,lê (ou escreve), salva, compacta e fecha.
 
@@ -28,3 +28,5 @@ Dicas:
 
 CherryPy - Web Framework
 """
+
+print("Teste")

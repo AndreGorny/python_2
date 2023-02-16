@@ -1,0 +1,6 @@
+1- criar banco de dados
+
+inserir os registros por meio do input.
+para inserir novos registros, utilizar método append na manipulação do arquivo.
+
+arquivo = 
