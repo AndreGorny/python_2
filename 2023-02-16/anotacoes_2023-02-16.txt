@@ -1,0 +1,32 @@
+Métodos mágicos
+
+__str__ -> Cria uma string com uma classe, para representar ao usuário
+__repr__ -> Cria uma string com uma classe, para representar para o desenvolvedor
+
+def __str__ (self) -> str:
+    return f"{self.nome} - {self.cpf}"
+
+def __repr__(self) -> str:
+    return str(self.__dict__)
+
+Para facilitar a criação da classe, pode-se usar o comando @dataclass
+    from dataclasses import dataclass
+    
+@dataclass
+class Cliente(Pessoa):
+    renda: str
+
+O dataclass se responsabiliza por criar um construtor genérico e inicializando os parâmetros da superclasse
+
+
+Classe abstrata: impede que sejam criados objetos de determinada classe.
+Ex.: Classe pessoa
+    Numa loja, não faz sentido cadastrar qualquer pessoa.
+        Só é importante cadastrar clientes e funcionários.
+        Então, podemos impedir que sejam criados objetos da classe pessoa,
+        criando-se apenas objetos da classe Cliente ou funcionários
+
+from abc import ABCMeta
+
+    class Pessoa(metaclass=ABCMeta): --> Torna a classe Pessoa uma classe abstrata
+
