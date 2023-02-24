@@ -1,0 +1,15 @@
+Verbos HTTP
+    - get: É um dos protocolos mais simples, utilizado para requisição simples.
+           Retorna apenas dados. Tudo que eu converso na requisição get é aberto, ou seja, fica aberto a qualquer pessoa (inseguro)
+    - post: permite a troca de informação com o servidor.
+            Ex.: para entrar no gmail, você usa o get. Para logar na conta, utiliza-se o post (os dados não ficam abertos)
+            Diferença entre get e post: get não tem payload, o post tem.
+    - head: quase igual ao get, mas só devolve o cabeçalho (é menos utilizado que o get)
+
+Utiliza-se a biblioteca Requests (ou URLlib, mas é menos usual)
+    Para trabalhar com a Requests, preciso instalá-la 
+
+
+Técnica chamada web scraping, onde eu posso retirar informações de sites através do HTML puxado do get.
+    bibliotecas: scrapy ou beatufifulsoup
+
