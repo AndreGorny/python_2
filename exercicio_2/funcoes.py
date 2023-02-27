@@ -6,8 +6,16 @@ def cadastro_cliente():
     sexo = input("Sexo: ")
     fone = input("Telefone: ")
     endereco = input("Endereço: ")
-with open('cliente.csv', 'a') as arquivo:
-    arquivo.write(f"{cod}, {nome},"
-                  f"{cpf}, {nascimento},"
-                  f"{sexo}, {fone},"
-                  f"{endereco} \n")
+    with open('cliente.csv', 'a') as arquivo:
+        arquivo.write(f"{cod}, {nome},"
+                      f"{cpf}, {nascimento},"
+                      f"{sexo}, {fone},"
+                      f"{endereco} \n")
+
+
+def cadastro_funcionario():
+    pass
+
+
+def cadastro_produto():
+    pass
