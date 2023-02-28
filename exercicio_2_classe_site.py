@@ -11,3 +11,7 @@ class Quadrado:
 
     def get_lado(self) -> float:
         return self.lado
+
+
+Quadrado.set_lado(4)
+Quadrado.get_lado
