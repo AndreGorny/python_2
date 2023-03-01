@@ -27,6 +27,7 @@ class GerArquivos:
         except Exception:
             pass
 
+
 @dataclass
 class Arquivo:
     nome: str

@@ -1,2 +1,5 @@
 {'nm_cliente': 'Fulano', 'nr_cpf': '12', 'dt_nascimento': '10/10/1990', 'endereco': 'Rua Sei lá 10'}
-{'nm_cliente': 'Batman', 'nr_cpf': '10', 'dt_nascimento': '01/01/1970', 'endereco': 'Batcaverna'}{'nm_cliente': 'Robin', 'nr_cpf': '09', 'dt_nascimento': '01/01/1980', 'endereco': 'Batcaverna'}
+{'nm_cliente': 'Batman', 'nr_cpf': '10', 'dt_nascimento': '01/01/1970', 'endereco': 'Batcaverna'}
+{'nm_cliente': 'Robin', 'nr_cpf': '09', 'dt_nascimento': '01/01/1980', 'endereco': 'Batcaverna'}
+{'nm_cliente': 'Maria', 'nr_cpf': '12345', 'dt_nascimento': '25/02/1997', 'endereco': 'Rua Carlos de Carvalho, 107'}
+{'nm_cliente': 'Carolina', 'nr_cpf': '1325', 'dt_nascimento': '25/08/1980', 'endereco': 'Rua A, 37'}

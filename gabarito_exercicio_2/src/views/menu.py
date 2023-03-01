@@ -1,7 +1,7 @@
 
 def menu():
 
-    opts = ["Cliente", "Produto", "Sair"]
+    opts = ["1- Cliente", "2- Produto", "3- Sair"]
 
     print("="*30)
     print("   === AbacateWare ===   ")
@@ -10,10 +10,11 @@ def menu():
     print("="*30)
     opt = input("Opção: ")
     return opt
+
 
 def submenu():
 
-    opts = ["Novo", "Buscar", "Voltar"]
+    opts = ["   1- Novo", " 2- Buscar", "   3- Voltar"]
 
     print("="*30)
     print("   === AbacateWare ===   ")
@@ -22,6 +23,7 @@ def submenu():
     print("="*30)
     opt = input("Opção: ")
     return opt
+
 
 def cadastra(obj: object):
 
@@ -29,3 +31,7 @@ def cadastra(obj: object):
         value = input(f"{key}: ")
         setattr(obj, key, value)
     return obj
+
+
+def busca(obj: object):
+    pass
