@@ -1,0 +1,18 @@
+Ao inserir uma URL no código, é necessário inseri-la completa, ex: 
+    response = requests.get(https://google.com)
+
+Para o get eu sempre preciso de uma URL. Como resposta eu sempre terei um response.
+
+Para criar uma lógica baseada no status-code, deve-se usar o comando response.status_code
+
+
+Exercício:
+Criar uma classe Cliente
+Fazer uma requisição get para o site: https://httpbin.org
+    Passar os argumentos do Cliente
+    recuperar os argumentos, ip de origem 
+
+
+Tarefa pra casa:
+    Implementar os outros argumentos não trabalhados
+    implementar o método gzip (e descompactar o arquivo c/ a biblioteca gzip)
