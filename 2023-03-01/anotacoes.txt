@@ -1,0 +1,9 @@
+SQL Alchemy -> https://www.sqlalchemy.org/
+    Versão 1.4
+
+pip3 install sqlalchemy==1.4.46
+
+Na aula usaremos o DBM sqlite
+
+Tarefa pra casa:
+Conectar o sqlalchemy com mysql
