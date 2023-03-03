@@ -11,11 +11,3 @@ def server_connection():
     return create_engine(
         url=f"mysql+pymysql://{user}:{password}@{host}:{port}/{db}"
     )
-
-
-if __name__ == '__main__':
-    try:
-        engine = server_connection()
-        print(f"Conetado com sucesso no servidor {host}, database {db}")
-    except Exception:
-        print("Não foi possível conectar no servidor.")

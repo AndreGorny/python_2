@@ -14,7 +14,7 @@ def menu():
 
 def submenu():
 
-    opts = ["   1- Novo", " 2- Buscar", "   3- Voltar"]
+    opts = ["  1- Novo", "  2- Buscar", "  3- Voltar"]
 
     print("="*30)
     print("   === AbacateWare ===   ")

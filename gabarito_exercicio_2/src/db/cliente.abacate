@@ -3,3 +3,4 @@
 {'nm_cliente': 'Robin', 'nr_cpf': '09', 'dt_nascimento': '01/01/1980', 'endereco': 'Batcaverna'}
 {'nm_cliente': 'Maria', 'nr_cpf': '12345', 'dt_nascimento': '25/02/1997', 'endereco': 'Rua Carlos de Carvalho, 107'}
 {'nm_cliente': 'Carolina', 'nr_cpf': '1325', 'dt_nascimento': '25/08/1980', 'endereco': 'Rua A, 37'}
+{'nm_cliente': 'Maria', 'nr_cpf': '14854', 'dt_nascimento': '25/02/1998', 'endereco': 'Rua das Trevas, 17'}
