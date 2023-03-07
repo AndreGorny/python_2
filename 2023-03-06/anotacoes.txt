@@ -1,0 +1,33 @@
+Biblioteca FAST API
+https://fastapi.tiangolo.com/
+
+Framework para entrega de APIs.
+    API é uma interface de comunicação. Seu objetivo principal é a comunicação entre sistemas.
+    O "usuário final" da API é um sistema, e não uma pessoa.
+
+Existem 2 tipos principais de formato de API
+    REST e SOAP
+
+    SOAP -> APIs projetadas para criar, recuperar, atualizar e apagar informações (CRUD, do MySQL)
+        O principal problema é que ele é difícil de implementar.
+        Implementado em XML
+    
+    REST -> Utiliza HTTP para transmissão de dados e os dados são, geralmente, em JSON.
+        É o mais utilizado no mercado
+
+Apache2 -> HTTP server (ruim para Python)
+NGINX -> HTTP server bom para Python
+
+WSGI: Web Server Gateway Interface 
+Entre o HTTP Server e a aplicação, precisa ter um WSGI para converter o código para que o HTTP Server compreenda o código.
+
+ASGI -> Asynchronous Server Gateway Interface
+    uvicorn
+    daphne (django)
+
+
+Criar tabela cliente
+Criar classe relativa ao cliente
+
+Ao ser requisitado, devolver os dados requisitados
+
