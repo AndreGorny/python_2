@@ -1,5 +1,5 @@
 from factory import get_session
-from cliente import Cliente
+from model.models import Cliente
 
 session = get_session()
 
