@@ -31,3 +31,8 @@ def cliente(cd_cliente) -> dict:
 
 # get -> "/cliente/{cd_cliente}/endereco" -> busca o endereço do cliente
 # post -> "/cliente/{cd_cliente}/endereco" -> cadastra o endereço do cliente
+
+
+@app.post("/cliente/{cd_cliente}")
+def test_cliente(cd_cliente):
+    pass

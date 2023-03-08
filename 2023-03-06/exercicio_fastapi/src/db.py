@@ -4,11 +4,12 @@ from cliente import Cliente
 session = get_session()
 
 sql = """CREATE TABLE cliente(
-    cd_cliente INTEGER PRIMARY KEY AUTOINCREMENT,
+    cd_cliente INT PRIMARY KEY AUTO_INCREMENT,
     nm_cliente VARCHAR(50),
     nr_cpf VARCHAR(20),
     ds_endereco VARCHAR(100)
 )"""
+
 session.execute(sql)
 
 a = Cliente(
@@ -32,6 +33,7 @@ c = Cliente(
 session.add(a)
 session.add(b)
 session.add(c)
+session.commit()
 
 results = session.query(Cliente).all()
 for result in results:
