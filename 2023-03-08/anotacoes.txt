@@ -1,0 +1,16 @@
+Unit test -> Usado para testar todos os componentes da feature, em um nívem mais baixo.
+
+Existem várias bibliorecas para esse teste.
+    Um delas é a unittest.
+
+        https://docs.python.org/3/library/unittest.html
+
+    Biblioteca pytest
+        https://docs.pytest.org/en/7.2.x/
+
+
+        * O arquivo de teste obrigatóriamente deve começar ou terminar com a palavra test.
+            Ex.: arquivo_test.py ou test_arquivo.py
+
+Para testar um request sem de fato entrar no endpoint, pode-se fazer um mock da biblioteca requests.
+    Para isso, usa-se a função @patch da biblioteca unittest
