@@ -15,9 +15,30 @@ class ClienteTable(Base):
     ds_endereco = Column("ds_endereco", String(100))
 
 
+class Pontuacao(Base):
+    __tablename__ = "pontuacao"
+
+    cd_pontuacao = Column("cd_pontuacao", int, primary_key=True)
+    cd_cliente = Column("cd_cliente", int)
+    vl_pontos = Column("vl_pontos", float)
+
+
 @dataclass
 class Cliente(ClienteTable):
     cd_cliente: int
     nm_cliente: str
     nr_cpf: str
     ds_endereco: str
+
+
+def pontuar(cliente, valor):
+    pass
+
+
+def pagamento():
+
+    # O pagamento aconteceu
+
+    cliente = {"cd_cliente": 1}
+    valor = 1200
+    pontuar(cliente, valor)
