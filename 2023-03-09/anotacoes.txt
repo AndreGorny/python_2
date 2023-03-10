@@ -1,0 +1,3 @@
+Ambiente virtual: https://docs.python.org/pt-br/3/library/venv.html
+
+É utilizado para isolar o ambiente de produção do restante da máquina
